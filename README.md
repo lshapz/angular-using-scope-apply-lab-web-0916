@@ -9,4 +9,4 @@
 
 The directive in this repo is broken - it's never updated. Let's change that.
 
-In our link function, add an event listener to listen to whenever the user presses a key on the page. Then, when they have, update the counter to reflect how many keys they have pressed.
+In our link function, add an event listener to listen to whenever the user presses a key on their keyboard on the page. Then, when they have, update the counter to reflect how many keys they have pressed.
