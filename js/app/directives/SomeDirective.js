@@ -11,7 +11,7 @@ function SomeDirective() {
 		controllerAs: 'ctrl',
 		require: 'someDirective',
 		link: function (scope, elem, attrs, ctrl) {
-			window.addEventListener('keydown', function () {
+			document.addEventListener('keydown', function () {
 				ctrl.counter++;
 				scope.$apply();
 			});
